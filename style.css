@@ -1,0 +1,71 @@
+body{
+    background-image: url(background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'poppins';
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0,0.7);
+    margin: auto;
+    color: orange;
+    padding: 0px;
+}
+h1{
+    margin: auto;
+}
+.anav{
+    text-decoration: none;
+    text-underline-offset: none;
+    font-size: 15px;
+    color: orange;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.anav:hover{
+    color: rgb(194, 127, 3);
+}
+#presentation{
+    color: orange;
+    margin-top: 170px;
+    margin-left: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+p{
+    color: orange;
+    user-select: none;
+}
+h2{
+    color: orange;
+}
+#contact{
+    width: 33%;
+    margin-left: 5%;
+    margin-top: 4%;
+    padding: 1%;
+    border: 5px solid rgb(43,88,85);
+    border-radius: 20px;
+}
+footer{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255,0.1);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+#apropos{
+    width: 40%;
+    margin-left: 6%;
+    margin-top: 4%;
+
+}
